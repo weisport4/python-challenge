@@ -1,0 +1,9 @@
+Analysis for Homework 3:
+
+1) There were 86 total dates of profit and loss data within the months for 2024
+2) Net Total is a profit while Average Change is a loss.  The max increase on 08/16 skews the data and the max decrease was less 
+than the max increase.
+3) Overall losses occur and without that skew we would most likely have seen a loss overall. 
+
+
+
