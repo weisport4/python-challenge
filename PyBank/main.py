@@ -1,10 +1,13 @@
+#changed the executable directory path for execution of the python code
+import os
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
+
 # Modules
 import csv
 
-# Set path for file (This shows how you can fully qualify the path in case you don't run your code in the same folder as the data, often we have our data in different
-# folders than the code.)
-csvpath = "C:/Users/Owner/Documents/Data Analytics/homework/python-challenge/PyBank/Resources/budget_data.csv"
-outputpath ="C:/Users/Owner/Documents/Data Analytics/homework/python-challenge/PyBank/Resources/output_homework3_pybank.txt"
+# Set path for input and output files
+csvpath = "Resources/budget_data.csv"
+outputpath ="Analysis/output_homework3_pybank.txt"
 
 # initialize variables
 tot_days = 0

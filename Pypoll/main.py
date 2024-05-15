@@ -1,11 +1,15 @@
+#changed the executable directory path for execution of the python code
+import os
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
+
 # Modules
 import csv
 
 
 # Set path for files (This shows how you can fully qualify the path in case you don't run your code in the same folder as the data, often we have our data in different
 # folders than the code.)
-csvpath = "C:/Users/Owner/Documents/Data Analytics/homework/python-challenge/Pypoll/Resources/election_data.csv"
-outputpath ="C:/Users/Owner/Documents/Data Analytics/homework/python-challenge/Pypoll/Resources/output_homework3_pypoll.txt"
+csvpath = "Resources/election_data.csv"
+outputpath ="Analysis/output_homework3_pypoll.txt"
 
 # initialize variables
 tot_vote_count = 0
